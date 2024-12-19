@@ -1,0 +1,39 @@
+/* Put it in Appearance -> Customize -> Cutom CSS/JS -> CSS Code
+ */
+
+/* First setup: 09.12.2024
+ * When this style is enabled, all links contained within the username in the top menu will become inactive.
+ */
+.login-logout-menu-username {
+     pointer-events: none;
+}
+
+/* First setup: 18.12.2024
+ * Update time: 18.12.2024
+ * Hier are custom css for the Simple Membership Custom Messages.
+ */
+/* Since it can not directly inherit styles from OceanWP themes when you edit the custom css in Elementor, please regularly check and verify whether the custom styles match those used on the website.
+ */
+.custmsgs-site{
+/* 	Global font -> System fonts -> Text */
+    font-family: Montserrat, sans-serif;
+    font-size: 20px;
+    font-weight: 400px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    line-height: 2;
+    color: #7A7A7A;
+    text-align: center;
+}
+.custmsgs-container{
+    /* 	Global font -> System fonts -> Text */
+    font-family: Montserrat, sans-serif;
+    font-size: 20px;
+    font-weight: 400px;
+/* 	margin-top: 20px; */
+/*   margin-bottom: 20px; */
+/* 	line-height: ; */
+    color: #7A7A7A;
+    text-align: center;
+}
+    

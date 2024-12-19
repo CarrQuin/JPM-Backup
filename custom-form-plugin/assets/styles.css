@@ -1,0 +1,39 @@
+.cuf-form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+.cuf-form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+.cuf-form input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.cuf-form button {
+    background-color: #0073aa;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+.cuf-form .required {
+    color: red;
+}
+.cuf-error, .cuf-success {
+    margin-bottom: 15px;
+    color: red;
+    font-weight: bold;
+}
+.cuf-success {
+    color: green;
+}
