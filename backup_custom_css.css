@@ -4,12 +4,12 @@
 /* First setup: 09.12.2024
  * When this style is enabled, all links contained within the username in the top menu will become inactive.
  */
-.login-logout-menu-username {
+/* .login-logout-menu-username {
      pointer-events: none;
-}
+} */
 
 /* First setup: 18.12.2024
- * Update time: 18.12.2024
+ * Update time: 20.12.2024
  * Hier are custom css for the Simple Membership Custom Messages.
  */
 /* Since it can not directly inherit styles from OceanWP themes when you edit the custom css in Elementor, please regularly check and verify whether the custom styles match those used on the website.
@@ -35,5 +35,44 @@
 /* 	line-height: ; */
     color: #7A7A7A;
     text-align: center;
+}
+.custmsgs-form{
+	/* 	Global font -> System fonts -> Text */
+	font-family: Montserrat, sans-serif;
+	font-size: 20px;
+	font-weight: 400;
+	color: #7A7A7A;
+}
+.custmsgs-form input[type="submit"], 
+.custmsgs-form button {
+	width: 100%;
+	font-size: 20px;
+	line-height: 2;
+	background-color: #B0D45D;
+	border: none;
+	border-radius: 10px;
+	padding: 1px;
+}
+.swpm-login-widget-logged {
+	font-family: Montserrat, sans-serif;
+	font-size: 20px;
+	font-weight: 400;
+/* 	margin-top: 20px; */
+/*   margin-bottom: 20px; */
+/* 	line-height: 1.8; */
+	color: #7A7A7A;
+	text-align: center;
+}
+.custmsgs-thankyou .swpm-yellow-box {
+    font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+	font-weight: 400;
+	color: #7A7A7A;
+	border: none;
+/* 	border: 2px solid #0066A3; */
+	border-radius: 10px;
+	padding: 15px;
+	background-color: #F2F2F2;
+	margin-bottom: 20px;
 }
     
