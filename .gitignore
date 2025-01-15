@@ -1,2 +1,4 @@
 *.txt
+*.xlsx
+*.py
 custom-form-plugin/
