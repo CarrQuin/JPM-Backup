@@ -64,7 +64,7 @@ $hide_join_us_link_enabled = SwpmSettings::get_instance()->get_value('hide-join-
             <div class="swpm-login-submit">
                 <input type="submit" class="<?php echo esc_attr($login_submit_class); ?>" name="swpm-login" value="<?php _e('Log In', 'simple-membership') ?>"/>
             </div>
-            <div class="swpm-forgot-pass-link">
+            <div class="swpm-forgot-pass-link" align="center">
                 <a id="forgot_pass" class="swpm-login-form-pw-reset-link"  href="<?php echo esc_url($password_reset_url); ?>"><?php _e('Forgot Password?', 'simple-membership') ?></a>
             </div>
             <?php if (empty($hide_join_us_link_enabled)) { ?>
