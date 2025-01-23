@@ -1,4 +1,5 @@
 *.txt
 *.xlsx
 *.py
+*.csv
 custom-form-plugin/
