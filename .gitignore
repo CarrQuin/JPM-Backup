@@ -1,6 +1,6 @@
 *.txt
 *.xlsx
-*.py
+
 *.csv
 custom-form-plugin/
 __pycache__/
